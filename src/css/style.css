@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+table {
+    width: 1000px;
+    background-color: #fbfbfb;
+}
+tr {
+    border: 1px solid #d6d6d6a1;
+}
+th, td, td {
+    width: 100px;
+    text-align: center;
+}
+th {
+    font-weight: bold;
+    padding: 7px 0;
+}
+th:first-of-type {
+    width: 150px;
+    text-transform: uppercase;
+}
+input {
+    width: 80%;
+    margin: 7px 0;
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+}
+input:focus-visible {
+    border: 1px solid #8d8d8d;
+    background-color: #ededed85;
+    outline: none;
+}
+button {
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 4px;
+    background-color: #4898f9;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+button:active {
+    background-color: #296dc0;
+}
+
+form > button,
+form > input {
+    width: 100px;
+    margin-left: 15px;
+    height: 23px;
+}
